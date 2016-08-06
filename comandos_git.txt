@@ -1,0 +1,28 @@
+Comandos de Git
+
+A continuación, se presentan los comandos de git más utilizados con su significado.
+
+-	git init Iniciar un repositorio.
+-	git status Visualiza el estado de los archivos.
+-	git diff Visualiza el estado de los archivos con detalle.
+-	git diff –-staged Visualiza el estado de los archivos preparados con detalle.
+-	git diff –cached Visualiza el estado de los archivos preparados con detalle hasta el momento.
+-	git add .  Agrega todos los cambios realizados.
+-	git add <nombre archivo> Agrega un archivo especifico.
+-	git commit -a -m 'Mensaje’ Agrega por defecto todos los archivos y confirma los cambios.
+-	git commit –amend Permite volver a hacer la confirmación del commit, por si se ha olvidado añadir un archivo.
+-	git reset HEAD <archivo>  Para sacar un archivo del área de preparación.
+-	git checkout <archivo>  Descarta los cambios y modificaciones de un archivo.
+-	git remote Mostrará una lista con los nombres de los remotos que se hayan especificado.
+-	git tag Lista las etiquetas en orden alfabético.
+-	git checkout . Descarta los cambios y modificaciones de todos los archivos.
+-	git log  Lista las confirmaciones hechas sobre ese repositorio.
+-	git mv file_from file_to Renombrar un archivo o carpeta.
+-	git branch <nombre branch> creando un nuevo branch.
+-	git checkout <nombre branch> cambiarse de branch.
+-	git branch  Viendo los branches del proyecto (el asterisco indica el branch donde estamos).
+-	git merge <nombre branch a unificar> Unificando branches (esto actualiza el branch donde estamos con los cambios que tenga el branch que indiquemos).
+-	git tag -a version -m 'mensaje' Crea una tag de anotación con el número de versión y mensaje.
+-	git tag versión Crea una etiqueta ligera estableciendo una versión.
+-	git help <comando> Obtener ayuda para un comando.
+-	git branch -d <rama> Elimina la rama especificada.
